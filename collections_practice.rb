@@ -14,7 +14,6 @@ def swap_elements_from_to(array, index, destination_index)
   placeholder = array[destination_index]
   array[destination_index] = array[index]
   array[index] = placeholder
-  array
 end
 
 def swap_elements(array)
