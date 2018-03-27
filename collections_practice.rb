@@ -1,3 +1,4 @@
+require 'pry'
 def sort_array_asc(array)
   array.sort
 end
@@ -36,4 +37,5 @@ end
 
 def find_a(array)
   array.select{|string| string.starts_with?('a')}
+  binding.pry
 end
